@@ -6,7 +6,7 @@ services:
     container_name: ts-mealie
     hostname: mealie
     environment:
-      - TS_AUTHKEY=tskey-auth-kyzXKM4Gou11CNTRL-xjRAuo2XWjhcmC6HPLpvjh3r6jkGhk4oY?ephemeral=false
+      - TS_AUTHKEY=tskey-auth-kE8QsxwQtL11CNTRL-zrEGkK45oG5UMwp6WRAWH527TUMTPimr?ephemeral=false
       #- "TS_EXTRA_ARGS=--advertise-tags=tag:container --reset"
       - TS_SERVE_CONFIG=/config/mealie.json
       - TS_STATE_DIR=/var/lib/tailscale
